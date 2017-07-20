@@ -1,6 +1,6 @@
 import { AccountingSystemAppPage } from './app.po';
 
-describe('accounting-system-app App', () => {
+describe('accounting-system-app App', function() {
   let page: AccountingSystemAppPage;
 
   beforeEach(() => {

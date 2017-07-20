@@ -14,7 +14,7 @@ use Illuminate\Http\Request;
 */
 
 /*Authenticate*/
-Route::post('/signin', 'UserController@authenticate');
+Route::post('/authenticate', 'UserController@authenticate');
 
 Route::get('/users', 'UserController@index')->middleware('jwt.auth');
 Route::get('/users/{id}', 'UserController@show')->middleware('jwt.auth');
